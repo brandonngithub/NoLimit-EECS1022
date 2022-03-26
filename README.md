@@ -1,18 +1,19 @@
 # nolimit-eecs1022
-<h3>NoLimit</h3><hr>
+<h4>Team name:</h4>
+NoLimit <hr>
 
-Members: <br>
+<h4>Members:</h4>
 Brandon Ngo (brandonn@my.yorku.ca, Section M, Lab 1) <br>
 Mikhail Malinovskiy (mm22@my.yorku.ca, Section M, Lab 3) <br>
-Charlene Noye (cece03@my.yorku.ca, Section M, Lab 1) <br><hr>
+Charlene Noye (cece03@my.yorku.ca, Section M, Lab 1) <hr>
 
-Project Title: <br>
-“What number am I thinking of? (Between 1 and X, and user also inputs how many tries you have)” <br><hr>
+<h4>Project Title:</h4>
+“What number am I thinking of? (Between 1 and X, and user also inputs how many tries you have)” <hr>
 
-Project Description: <br>
-The project we are doing is a modified version of the second one listed; “What number am I thinking of? (Between 1 and X, and the user also inputs how many tries you have)”. The app first asks the user to enter the amount of lives granted. Then, the user will need to choose a difficulty level (easy is 1-10, normal is 1-50, hard is 1-100), and the game will generate a random number between 1 and the upper limit. If the user guesses that number before they run out of lives, they win and will be prompted to enter a name that will be displayed on a list of winners. There will also be a multiplayer option where each player gets three lives, and the player who gets the most answers right before they run out of lives wins the game. <br><hr>
+<h4>Project Description:</h4>
+The project we are doing is a modified version of the second one listed; “What number am I thinking of? (Between 1 and X, and the user also inputs how many tries you have)”. The app first asks the user to enter the amount of lives granted. Then, the user will need to choose a difficulty level (easy is 1-10, normal is 1-50, hard is 1-100), and the game will generate a random number between 1 and the upper limit. If the user guesses that number before they run out of lives, they win and will be prompted to enter a name that will be displayed on a list of winners. There will also be a multiplayer option where each player gets three lives, and the player who gets the most answers right before they run out of lives wins the game. <hr>
 
-Requirements Definition: <br>
+<h4>Requirements Definition:</h4>
 <ol>
   <li>User will be able to enter the amount of tries (lives) allowed</li>
   <li>User will be able to choose one of three difficulty levels</li>
@@ -29,4 +30,4 @@ Requirements Definition: <br>
   <li>User will have the option to quit game after the game is over</li>
 </ol><hr>
 
-Wireframes: <br>
+<h4>Wireframes:</h4>
