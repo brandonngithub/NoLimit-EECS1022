@@ -12,7 +12,7 @@ Project Title: <br>
 Project Description:<br>
 The project we are doing is a modified version of the second one listed; “What number am I thinking of? (Between 1 and X, and the user also inputs how many tries you have)”. The app first asks the user to enter the amount of lives granted. Then, the user will need to choose a difficulty level (easy is 1-10, normal is 1-50, hard is 1-100), and the game will generate a random number between 1 and the upper limit. If the user guesses that number before they run out of lives, they win and will be prompted to enter a name that will be displayed on a list of winners. There will also be a multiplayer option where each player gets three lives, and the player who gets the most answers right before they run out of lives wins the game. <br><br>
 
-Requirements Definition:<br>
+Requirements Definition:
 <ol>
   <li>User will be able to enter the amount of tries (lives) allowed</li>
   <li>User will be able to choose one of three difficulty levels</li>
