@@ -1,2 +1,33 @@
 # NoLimit-EECS1022
-EECS1022 Team Project (NoLimit)
+
+Team name: NoLimit
+
+Members:
+Brandon Ngo (brandonn@my.yorku.ca) (Section M Lab 1)
+Mikhail Malinovskiy (mm22@my.yorku.ca) (Section M Lab 3)
+Charlene Noye (cece03@my.yorku.ca) (Section M Lab 1)
+
+Project Title:
+“What number am I thinking of? (Between 1 and X, and user also inputs how many tries you have)”
+
+Project Description:
+The project we are doing is a modified version of the second one listed; “What number am I thinking of? (Between 1 and X, and the user also inputs how many tries you have)”. The app first asks the user to enter the amount of lives granted. Then, the user will need to choose a difficulty level (easy is 1-10, normal is 1-50, hard is 1-100), and the game will generate a random number between 1 and the upper limit. If the user guesses that number before they run out of lives, they win and will be prompted to enter a name that will be displayed on a list of winners. There will also be a multiplayer option where each player gets three lives, and the player who gets the most answers right before they run out of lives wins the game.
+
+Requirements Definition:
+User will be able to enter the amount of tries (lives) allowed
+User will be able to choose one of three difficulty levels
+User will be able to choose between playing solo or multiplayer
+User will be able to make a numerical guess
+User will be alerted whether their guess was correct or incorrect
+User will have a life deducted if they guess incorrectly
+User will be able to see how many lives they have left
+User will trigger the end of the game if they guess correctly or run out of lives
+User will be shown an end message saying if they won or lost
+User will be able to enter their name to be displayed on the list of winners if they win
+User can view the scoreboard which shows the winners of the game
+User will have the option of playing again after the game is over
+User will have the option to quit game after the game is over
+
+Wireframes:
+
+
