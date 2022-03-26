@@ -29,4 +29,5 @@ Requirements Definition:
   <li>User will have the option to quit game after the game is over</li>
 </ol><br>
 
-Wireframes:<br>
+Wireframes:
+<img width="969" alt="wireframes" src="https://user-images.githubusercontent.com/91623674/160260926-67bb7317-8c76-4faf-b861-9eefce7ee247.png">
