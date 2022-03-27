@@ -7,31 +7,42 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/normal"
-        android:layout_width="339dp"
-        android:layout_height="43dp"
-        android:text="NORMAL"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/button"
+        android:layout_width="353dp"
+        android:layout_height="71dp"
+        android:text="SUBMIT GUESS"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteY="372dp" />
 
-    <Button
-        android:id="@+id/hard"
-        android:layout_width="339dp"
-        android:layout_height="43dp"
-        android:text="HARD"
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="143dp">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/input"
+        android:layout_width="351dp"
+        android:layout_height="62dp"
+        android:hint="Take a guess"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/normal" />
+        tools:layout_editor_absoluteY="293dp" />
 
-    <Button
-        android:id="@+id/easy"
-        android:layout_width="339dp"
-        android:layout_height="43dp"
-        android:text="EASY"
-        app:layout_constraintBottom_toTopOf="@+id/normal"
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="351dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Guess a number between 1 and 10"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="217dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
