@@ -1,4 +1,4 @@
-package com.example.bmi;
+package com.example.guess;
 
 import android.content.Context;
 

@@ -1,4 +1,4 @@
-package com.example.bmi;
+package com.example.guess;
 
 import org.junit.Test;
 

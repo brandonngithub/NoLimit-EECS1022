@@ -1,8 +1,8 @@
-package com.example.bmi;
+package com.example.guess;
 
 import java.text.DecimalFormat;
 
-public class BMIModel {
+public class Model {
     public static double getBMI(double weight, double height) {
         double result = weight/height/height;
         return result;

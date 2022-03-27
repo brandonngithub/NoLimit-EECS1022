@@ -1,9 +1,9 @@
-package com.example.bmi.BMITest;
+package com.example.guess.Test;
 
-import com.example.bmi.BMIModel;
+import com.example.guess.Model;
 import org.junit.Test;
 
-public class BMIModelTest
+public class ModelTest
 {
     @Test
     public void getBMITest()
@@ -13,6 +13,6 @@ public class BMIModelTest
 
         w = 90; h = 1.8;
         System.out.println(w + "," + h);
-        System.out.println(BMIModel.getBMI(w, h));
+        System.out.println(Model.getBMI(w, h));
     }
 }

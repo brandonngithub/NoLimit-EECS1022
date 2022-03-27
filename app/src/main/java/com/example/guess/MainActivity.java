@@ -1,4 +1,4 @@
-package com.example.bmi;
+package com.example.guess;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
@@ -20,10 +20,10 @@ public class MainActivity extends AppCompatActivity {
         EditText heightView = (EditText) findViewById(R.id.heightBox);
         String hS = heightView.getText().toString();
 
-        double wD = BMIModel.toDouble(wS);
-        double hD = BMIModel.toDouble(hS);
-        double bmiD = BMIModel.getBMI(wD, hD);
-        String bmiS = BMIModel.formatBMI(bmiD);
+        double wD = Model.toDouble(wS);
+        double hD = Model.toDouble(hS);
+        double bmiD = Model.getBMI(wD, hD);
+        String bmiS = Model.formatBMI(bmiD);
         ((TextView) findViewById(R.id.BMI)).setText(bmiS);
     }
 }
