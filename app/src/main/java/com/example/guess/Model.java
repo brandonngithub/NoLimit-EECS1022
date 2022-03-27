@@ -8,8 +8,8 @@ public class Model {
         return result;
     }
 
-    public static double toDouble(String s) {
-        return Double.parseDouble(s);
+    public static double toInt(String s) {
+        return Integer.parseInt(s);
     }
 
     public static String formatBMI(double bmi) {

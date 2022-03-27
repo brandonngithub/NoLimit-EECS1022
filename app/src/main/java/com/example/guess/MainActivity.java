@@ -15,15 +15,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void buttonClicked(View v) {
-        EditText weightView = (EditText) findViewById(R.id.weightBox);
-        String wS = weightView.getText().toString();
-        EditText heightView = (EditText) findViewById(R.id.heightBox);
-        String hS = heightView.getText().toString();
+        EditText inputBox = (EditText) findViewById(R.id.input);
+        String str = inputBox.getText().toString();
 
-        double wD = Model.toDouble(wS);
-        double hD = Model.toDouble(hS);
-        double bmiD = Model.getBMI(wD, hD);
-        String bmiS = Model.formatBMI(bmiD);
-        ((TextView) findViewById(R.id.BMI)).setText(bmiS);
+        int guess = Integer.parseInt(str);
+        int randomNum = (int) Math.floor(Math.random()*(10)+1);
+        String isSame = guess+" "+randomNum+" "+"wrong";
+        if (guess == randomNum)
+            isSame = guess+" "+randomNum+" "+"right";;
+        ((TextView) findViewById(R.id.output)).setText(isSame);
     }
 }

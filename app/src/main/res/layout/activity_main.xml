@@ -45,4 +45,15 @@
         app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="217dp" />
+
+    <EditText
+        android:id="@+id/output"
+        android:layout_width="354dp"
+        android:layout_height="59dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="sdflsdfsdjfso"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="465dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
