@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class Difficulty extends AppCompatActivity {
 
@@ -15,7 +16,10 @@ public class Difficulty extends AppCompatActivity {
         setContentView(R.layout.activity_difficulty);
 
         configureEasyButton();
+        configureNormalButton();
+        configureHardButton();
     }
+
 
     private void configureEasyButton() {
         Button easyButton = (Button) findViewById(R.id.easy);
@@ -26,4 +30,27 @@ public class Difficulty extends AppCompatActivity {
             }
         });
     }
+    private void configureNormalButton() {
+        Button normalButton = (Button) findViewById(R.id.normal);
+        normalButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Difficulty.this, SingleplayerNormal.class));
+
+            }
+        });
+    }
+    private void configureHardButton() {
+        Button hardButton = (Button) findViewById(R.id.hard);
+        hardButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Difficulty.this, SingleplayerHard.class));
+
+            }
+
+        });
+    }
+
+
 }
