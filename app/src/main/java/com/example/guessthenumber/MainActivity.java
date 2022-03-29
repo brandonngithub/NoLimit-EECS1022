@@ -29,15 +29,4 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public void buttonClicked(View v) {
-        EditText inputBox = (EditText) findViewById(R.id.input);
-        String str = inputBox.getText().toString();
-
-        int guess = Integer.parseInt(str);
-        int randomNum = (int) Math.floor(Math.random()*(10)+1);
-        String isSame = guess+" "+randomNum+" "+"wrong";
-        if (guess == randomNum)
-            isSame = guess+" "+randomNum+" "+"right";;
-        ((TextView) findViewById(R.id.output)).setText(isSame);
-    }
 }

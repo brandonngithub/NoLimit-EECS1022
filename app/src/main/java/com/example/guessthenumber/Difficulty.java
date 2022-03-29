@@ -22,7 +22,7 @@ public class Difficulty extends AppCompatActivity {
         easyButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Difficulty.this, MainActivity.class));
+                startActivity(new Intent(Difficulty.this, SingleplayerEasy.class));
             }
         });
     }
