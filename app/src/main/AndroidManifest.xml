@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GuessTheNumber">
         <activity
+            android:name=".SingleplayerHard"
+            android:exported="false" />
+        <activity
+            android:name=".SingleplayerNormal"
+            android:exported="false" />
+        <activity
             android:name=".SingleplayerEasy"
             android:exported="false" />
         <activity
