@@ -29,7 +29,7 @@ public class SingleplayerEasy extends AppCompatActivity {
         if (guess == randomNum){
             startActivity(new Intent(SingleplayerEasy.this, WinnerScreen.class));
         }else{
-            isSame = guess+" "+randomNum+" "+"Try again";
+            isSame = "Try again! (Answer: "+randomNum+")";
             lives--;
         }
         //if out of lives then change page

@@ -13,9 +13,6 @@
             android:name=".Multiplayer"
             android:exported="false" />
         <activity
-            android:name=".MultiplayerBroken"
-            android:exported="false" />
-        <activity
             android:name=".WinnerScreen"
             android:exported="false" />
         <activity

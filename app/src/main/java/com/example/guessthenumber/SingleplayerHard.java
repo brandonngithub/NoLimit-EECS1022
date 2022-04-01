@@ -27,7 +27,7 @@ public class SingleplayerHard extends AppCompatActivity
         if (guess == randomNum){
             startActivity(new Intent(SingleplayerHard.this, WinnerScreen.class));
         }else{
-            isSame = guess+" "+randomNum+" "+"Try again";
+            isSame = "Try again! (Answer: "+randomNum+")";
             lives--;
         }
         //if out of lives then change page
