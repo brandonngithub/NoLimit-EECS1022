@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GuessTheNumber">
         <activity
+            android:name=".WinnerScreen"
+            android:exported="false" />
+        <activity
             android:name=".LoserScreen"
             android:exported="false" />
         <activity

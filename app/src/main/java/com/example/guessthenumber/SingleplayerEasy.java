@@ -28,8 +28,9 @@ public class SingleplayerEasy extends AppCompatActivity {
         String isSame;
         if (guess == randomNum){
             isSame = guess+" "+randomNum+" "+"Correct!";
+            startActivity(new Intent(SingleplayerEasy.this, WinnerScreen.class));
         }else{
-            isSame = guess+" "+randomNum+" "+"Incorrect!";
+            isSame = guess+" "+randomNum+" "+"Try again";
             lives--;
         }
         //if out of lives then change page
