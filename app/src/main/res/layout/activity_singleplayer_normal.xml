@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SingleplayerEasy">
+    tools:context=".SingleplayerNormal">
 
     <Button
         android:id="@+id/button"
@@ -46,9 +46,32 @@
         android:layout_height="59dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="sdflsdfsdjfso"
+        android:text=""
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <EditText
+        android:id="@+id/lives"
+        android:layout_width="354dp"
+        android:layout_height="59dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Lives: 3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/output" />
+
+    <EditText
+        android:id="@+id/howCloseIsGuess"
+        android:layout_width="354dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lives" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
