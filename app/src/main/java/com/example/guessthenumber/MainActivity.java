@@ -16,17 +16,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        configureSingleplayerButton();
     }
 
-    private void configureSingleplayerButton() {
-        Button easyButton = (Button) findViewById(R.id.singleplayer);
-        easyButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, Difficulty.class));
-            }
-        });
+
+    public void singleplayerMode(View view) {
+        startActivity(new Intent(MainActivity.this, Difficulty.class));
     }
 
 }

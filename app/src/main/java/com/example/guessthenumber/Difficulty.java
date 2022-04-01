@@ -15,42 +15,18 @@ public class Difficulty extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_difficulty);
 
-        configureEasyButton();
-        configureNormalButton();
-        configureHardButton();
     }
 
-
-    private void configureEasyButton() {
-        Button easyButton = (Button) findViewById(R.id.easy);
-        easyButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(Difficulty.this, SingleplayerEasy.class));
-            }
-        });
-    }
-    private void configureNormalButton() {
-        Button normalButton = (Button) findViewById(R.id.normal);
-        normalButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(Difficulty.this, SingleplayerNormal.class));
-
-            }
-        });
-    }
-    private void configureHardButton() {
-        Button hardButton = (Button) findViewById(R.id.hard);
-        hardButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(Difficulty.this, SingleplayerHard.class));
-
-            }
-
-        });
+    public void easyMode(View view) {
+        startActivity(new Intent(Difficulty.this, SingleplayerEasy.class));
     }
 
+    public void normalMode(View view) {
+        startActivity(new Intent(Difficulty.this, SingleplayerNormal.class));
+    }
+
+    public void hardMode(View view) {
+        startActivity(new Intent(Difficulty.this, SingleplayerHard.class));
+    }
 
 }

@@ -33,7 +33,6 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Username"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
@@ -42,17 +41,18 @@
         android:id="@+id/add_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="addWinner"
-        android:text="Add"
+        android:onClick="addName"
+        android:text="Add Name"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password" />
+        app:layout_constraintTop_toBottomOf="@+id/username" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="playAgain"
         android:text="Play Again"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -60,31 +60,23 @@
 
     <TextView
         android:id="@+id/file_text"
-        android:layout_width="367dp"
-        android:layout_height="431dp"
-        android:text="TextView"
+        android:layout_width="221dp"
+        android:layout_height="313dp"
+        android:textAlignment="center"
         android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/add_name" />
+        app:layout_constraintTop_toBottomOf="@+id/show_file" />
 
     <Button
         android:id="@+id/show_file"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:text="show"
-        app:layout_constraintEnd_toStartOf="@+id/add_name"
-        app:layout_constraintTop_toTopOf="@+id/add_name" />
-
-    <EditText
-        android:id="@+id/password"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Password"
+        android:onClick="showFile"
+        android:text="Show Previous Winners"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/username" />
+        app:layout_constraintTop_toBottomOf="@+id/add_name" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

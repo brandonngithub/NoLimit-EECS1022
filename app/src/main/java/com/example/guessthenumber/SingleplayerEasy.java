@@ -25,9 +25,8 @@ public class SingleplayerEasy extends AppCompatActivity {
         String str = inputBox.getText().toString();
         int guess = Integer.parseInt(str);
         //determines if right or wrong
-        String isSame;
+        String isSame = null;
         if (guess == randomNum){
-            isSame = guess+" "+randomNum+" "+"Correct!";
             startActivity(new Intent(SingleplayerEasy.this, WinnerScreen.class));
         }else{
             isSame = guess+" "+randomNum+" "+"Try again";
