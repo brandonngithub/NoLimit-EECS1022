@@ -6,6 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".SingleplayerEasy">
 
+    <EditText
+        android:id="@+id/howCloseIsGuess"
+        android:layout_width="354dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lives" />
+
     <Button
         android:id="@+id/button"
         android:layout_width="353dp"

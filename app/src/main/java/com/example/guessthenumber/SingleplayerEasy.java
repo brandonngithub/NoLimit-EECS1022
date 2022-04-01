@@ -39,5 +39,26 @@ public class SingleplayerEasy extends AppCompatActivity {
         //update output and lives display
         ((TextView) findViewById(R.id.output)).setText(isSame);
         ((TextView) findViewById(R.id.lives)).setText("Lives: "+lives);
+        ((TextView) findViewById(R.id.howCloseIsGuess)).setText(howClose(randomNum,guess));
+    }
+
+    public String howClose(int num1, int num2)
+    {
+        String str;
+        int diff = num1 - num2;
+        if(Math.abs(diff) <= 3)
+        {
+            str = "Your guess is close!";
+        }
+        else if(3 < Math.abs(diff) && Math.abs(diff) <= 6)
+        {
+            str = "Your guess is not too far off!";
+        }
+        else
+        {
+            str = "Your guess is pretty far off";
+        }
+        return str;
+
     }
 }
