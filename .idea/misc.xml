@@ -12,7 +12,7 @@
         <entry key="../nolimit-eecs1022/app/src/main/res/layout/activity_winner_screen.xml" value="0.2078804347826087" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14010416666666667" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.14010416666666667" />
-        <entry key="app/src/main/res/layout/activity_difficulty.xml" value="0.21296296296296297" />
+        <entry key="app/src/main/res/layout/activity_difficulty.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_leaderboards.xml" value="0.24270833333333333" />
         <entry key="app/src/main/res/layout/activity_loser_screen.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
