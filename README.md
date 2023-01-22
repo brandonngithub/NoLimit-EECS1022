@@ -1,4 +1,4 @@
-# nolimit-eecs1022
+# guess-the-number
 Team name: NoLimit <br><br>
 
 Members: <br>
